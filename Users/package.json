@@ -1,0 +1,33 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "Microservice for users, authentication",
+  "main": "server_user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server_user"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilbha/ProjectManagement_Monitoring.git"
+  },
+  "keywords": [
+    "users",
+    "authentication",
+    "jwt",
+    "bcryptjs"
+  ],
+  "author": "Bhargav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilbha/ProjectManagement_Monitoring/issues"
+  },
+  "homepage": "https://github.com/kilbha/ProjectManagement_Monitoring#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
